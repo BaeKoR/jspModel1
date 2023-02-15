@@ -20,14 +20,14 @@
 		%>
 		<script type="text/javascript">
 		alert("환영합니다 <%=mem.getId()%>님");
-		//location.href = "";
+		location.href = "bbslist.jsp";
 		</script>
 		<%
 	}
 	else{
 		%>
 		<script type="text/javascript">
-		alert("아이디나 패스워드를 확인하세요")
+		alert("로그인 실패")
 		location.href = "login.jsp";
 		</script>
 		<%
